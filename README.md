@@ -1,14 +1,17 @@
-# Fixed QUEUE
+# Fixed Queue Vector
 
 A vector that acts like a fixed queue.  
 
-inserting values will push out the values at the start when the size exceeds that size youprovide.
+inserting values will push out the values at the start when the size exceeds that size you provide.
 
 ## Multi/single value:
 
 ```R
   fixed_value <- 8
+
+  ## initializing the vector
   fixed_queue <- fixed(c('6','7','8','12', '123','44'), fixed_value)
+ 
   fixed_queue <- push(fixed_queue, value=c('222','333'))
   length(fixed_queue) # 8
   
