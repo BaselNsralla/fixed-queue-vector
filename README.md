@@ -2,11 +2,12 @@
 
 A vector that acts like a fixed queue.  
 
-inserting values will push out the values at the start when the size exceeds that size you provide.
+inserting values will remove the values at the start, so it always has the same size.
 
 ## Multi/single value:
 
 ```R
+  ## the vectors fixed size
   fixed_value <- 8
 
   ## initializing the vector
