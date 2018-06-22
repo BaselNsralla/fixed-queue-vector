@@ -8,10 +8,10 @@ inserting values will remove the values at the start, so it always has the same 
 
 ```R
   ## the vectors fixed size
-  fixed_value <- 8
+  fixed_size <- 8
 
   ## initializing the vector
-  fixed_queue <- fixed(c('6','7','8','12', '123','44'), fixed_value)
+  fixed_queue <- fixed(c('6','7','8','12', '123','44'), fixed_size)
  
   fixed_queue <- push(fixed_queue, value=c('222','333'))
   length(fixed_queue) # 8
