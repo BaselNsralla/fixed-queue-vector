@@ -4,7 +4,7 @@ A vector that acts like a fixed queue.
 
 inserting values will remove the values at the start, so it always has the same size.
 
-## Multi/single value:
+## Multi/single value insertions:
 
 ```R
   ## the vectors fixed size
